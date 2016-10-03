@@ -1,0 +1,33 @@
+
+<!--
+ <div class="jumbotron">
+  <h1>'HI, 'HI!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+-->
+<div ui-view class="jumbotrom"></div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+       <label class="pull-right">
+            <span class="glyphicon glyphicon-search"></span> <input ng-model="searchText">
+        </label>
+       <h4>Persona Selection</h4>
+        
+    </div>
+    <div class="panel-body">
+       
+        <div class="list-group">
+            <button type="button" ng-repeat="d in shareData.allData | orderBy:'name' | filter:searchText" class="list-group-item" ng-click="gotoItem(d.pos)">
+                <span class="badge">{{d.pos}}</span>
+                <label>{{d.name}}</label>
+            </button>
+        </div>        
+    </div>
+</div>
+
+
+
