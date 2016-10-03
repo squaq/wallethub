@@ -12,17 +12,23 @@
 <div ui-view class="jumbotrom"></div>
 <div class="panel panel-default">
     <div class="panel-heading">
-       <label class="pull-right">
+       
+       <h4>Persona Selection</h4>
+       
+       <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default" ng-click="clickAlign('name')" id="orderByName">Name</button>
+          <button type="button" class="btn btn-default" ng-click="clickAlign('pos')" id="orderByPos">Position</button>
+        </div>
+        <label class="pull-right">
             <span class="glyphicon glyphicon-search"></span> <input ng-model="searchText">
         </label>
-       <h4>Persona Selection</h4>
         
     </div>
     <div class="panel-body">
        
         <div class="list-group">
-            <button type="button" ng-repeat="d in shareData.allData | orderBy:'name' | filter:searchText" class="list-group-item" ng-click="gotoItem(d.pos)">
-                <span class="badge">{{d.pos}}</span>
+            <button type="button" ng-repeat="d in shareData.allData | orderBy:by | filter:searchText" class="list-group-item" ng-click="gotoItem(d.pos)">
+                <span class="badge">{{(d.pos)}}</span>
                 <label>{{d.name}}</label>
             </button>
         </div>        

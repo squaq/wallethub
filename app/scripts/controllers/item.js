@@ -2,12 +2,16 @@
 
 angular.module('wallethubApp').controller('ItemCtrl', function ($scope, $stateParams, shareData, $location) {
     
-    console.log('shareData.allData',shareData.allData)
     if(!shareData.allData)
     {
         $location.path('/list');
-        
         return;
     }
-    $scope.item = shareData.allData[$stateParams.item] ;
+    
+    $scope.item = shareData.allData[parseInt($stateParams.item)-1];
+    
+    $scope.clickInfo = function(){
+        shareData.selectedPersona = shareData.allData[parseInt($stateParams.item)-1];
+        $location.path('/person');
+    }
 });

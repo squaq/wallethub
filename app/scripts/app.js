@@ -30,6 +30,11 @@ angular
               templateUrl: 'views/list.html',
               controller: 'ListCtrl'
         })
+        .state('person', {
+                url:'/person',
+              templateUrl: 'views/person.html',
+              controller: 'PersonCtrl'
+        })
         .state('list.item', {
                 url:'/:item',
               templateUrl: 'views/item.html',

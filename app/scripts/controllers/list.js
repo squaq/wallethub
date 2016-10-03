@@ -4,7 +4,7 @@ angular.module('wallethubApp')
   .controller('ListCtrl', function ($scope, shareData, $http, $location) {
     $scope.shareData = shareData;
     $scope.showError = false;
-    
+    $scope.by = '';
     
     if(!$scope.shareData.allData){
         downloadData();
@@ -15,7 +15,7 @@ angular.module('wallethubApp')
         $scope.shareData.allData = null;
         $scope.shareData.allData = [];
         for(var i in data){
-            $scope.shareData.allData.push({'name':data[i].name, 'pos':i, 'data':data[i]});
+            $scope.shareData.allData.push({'name':data[i].name, 'pos':parseInt(i)+1, 'data':data[i]});
        }
 //        console.log($scope.shareData.allData);
     }
@@ -36,6 +36,24 @@ angular.module('wallethubApp')
         $location.path("/list/"+id);
     }
     
+    
+    
+    
+    $scope.clickAlign = function(by){
+        
+        $scope.by = by;   
+        if(by === 'name'){
+            angular.element('#orderByName').addClass('disabled');
+            angular.element('#orderByPos').removeClass('disabled');
+        }
+        else{
+            angular.element('#orderByPos').addClass('disabled');
+            angular.element('#orderByName').removeClass('disabled');
+
+        }
+        
+    }
+    $scope.clickAlign('name');
     
     
   });
