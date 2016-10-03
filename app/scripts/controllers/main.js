@@ -9,7 +9,4 @@
  */
 angular.module('wallethubApp')
   .controller('MainCtrl', function (shareData) {
-    console.log(shareData.cont)
-    shareData.cont = shareData.cont+1;
-    
   });

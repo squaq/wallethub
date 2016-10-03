@@ -17,8 +17,7 @@ angular.module('wallethubApp')
         for(var i in data){
             $scope.shareData.allData.push({'name':data[i].name, 'pos':i, 'data':data[i]});
        }
-        
-        console.log($scope.shareData.allData);
+//        console.log($scope.shareData.allData);
     }
     
     function downloadData(){
@@ -28,12 +27,11 @@ angular.module('wallethubApp')
         }, 
         function(error){
             $scope.showError = true;
-            console.log('error',error);
+//            console.log('error',error);
         });
     }
     
     $scope.gotoItem = function(id){
-        console.log('item',id);
         shareData.selectedPersona = $scope.shareData.allData[id];
         $location.path("/list/"+id);
     }
