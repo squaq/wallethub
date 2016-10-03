@@ -1,232 +1,177 @@
 [
   {
-    "name": "Wall Bailey",
-    "email": "wallbailey@electonic.com",
-    "phone": "(995) 486-2657"
+    "rate1": 6,
+    "rate2": 10,
+    "name": "Sparks Britt",
+    "email": "sparksbritt@electonic.com",
+    "phone": "(842) 456-2484"
   },
   {
-    "name": "Lacy Allison",
-    "email": "lacyallison@electonic.com",
-    "phone": "(911) 528-3256"
+    "rate1": 6,
+    "rate2": 1,
+    "name": "Burt Conley",
+    "email": "burtconley@electonic.com",
+    "phone": "(871) 491-3187"
   },
   {
-    "name": "Letha Mckenzie",
-    "email": "lethamckenzie@electonic.com",
-    "phone": "(865) 558-2249"
+    "rate1": 7,
+    "rate2": 1,
+    "name": "Bullock Barry",
+    "email": "bullockbarry@electonic.com",
+    "phone": "(932) 515-2687"
   },
   {
-    "name": "Greene Paul",
-    "email": "greenepaul@electonic.com",
-    "phone": "(988) 463-2289"
+    "rate1": 10,
+    "rate2": 2,
+    "name": "Beatriz Donaldson",
+    "email": "beatrizdonaldson@electonic.com",
+    "phone": "(915) 438-3162"
   },
   {
-    "name": "Sandra Dunn",
-    "email": "sandradunn@electonic.com",
-    "phone": "(847) 453-2083"
+    "rate1": 4,
+    "rate2": 2,
+    "name": "Dolly Crane",
+    "email": "dollycrane@electonic.com",
+    "phone": "(833) 516-2093"
   },
   {
-    "name": "Chandra Hoover",
-    "email": "chandrahoover@electonic.com",
-    "phone": "(836) 502-3643"
+    "rate1": 6,
+    "rate2": 0,
+    "name": "Madeleine Hobbs",
+    "email": "madeleinehobbs@electonic.com",
+    "phone": "(962) 558-3733"
   },
   {
-    "name": "Lorie Collins",
-    "email": "loriecollins@electonic.com",
-    "phone": "(852) 561-2226"
+    "rate1": 7,
+    "rate2": 0,
+    "name": "Jewell York",
+    "email": "jewellyork@electonic.com",
+    "phone": "(828) 463-3119"
   },
   {
-    "name": "Tate Caldwell",
-    "email": "tatecaldwell@electonic.com",
-    "phone": "(847) 496-2714"
+    "rate1": 5,
+    "rate2": 0,
+    "name": "Boone Gregory",
+    "email": "boonegregory@electonic.com",
+    "phone": "(912) 526-2413"
   },
   {
-    "name": "Kelley Camacho",
-    "email": "kelleycamacho@electonic.com",
-    "phone": "(821) 431-2739"
+    "rate1": 7,
+    "rate2": 8,
+    "name": "Cecelia Bonner",
+    "email": "ceceliabonner@electonic.com",
+    "phone": "(949) 518-2668"
   },
   {
-    "name": "Rosanne Douglas",
-    "email": "rosannedouglas@electonic.com",
-    "phone": "(865) 445-3426"
+    "rate1": 6,
+    "rate2": 4,
+    "name": "Carly Yates",
+    "email": "carlyyates@electonic.com",
+    "phone": "(909) 434-2232"
   },
   {
-    "name": "Dawn Carpenter",
-    "email": "dawncarpenter@electonic.com",
-    "phone": "(923) 505-2230"
+    "rate1": 5,
+    "rate2": 7,
+    "name": "Ollie Church",
+    "email": "olliechurch@electonic.com",
+    "phone": "(994) 592-3462"
   },
   {
-    "name": "Eaton Walton",
-    "email": "eatonwalton@electonic.com",
-    "phone": "(887) 460-3140"
+    "rate1": 6,
+    "rate2": 10,
+    "name": "Gray Collins",
+    "email": "graycollins@electonic.com",
+    "phone": "(820) 581-3697"
   },
   {
-    "name": "Marietta Berger",
-    "email": "mariettaberger@electonic.com",
-    "phone": "(984) 442-3608"
+    "rate1": 2,
+    "rate2": 3,
+    "name": "Lana Kelly",
+    "email": "lanakelly@electonic.com",
+    "phone": "(983) 519-3866"
   },
   {
-    "name": "Lauren Mccarthy",
-    "email": "laurenmccarthy@electonic.com",
-    "phone": "(932) 527-3028"
+    "rate1": 2,
+    "rate2": 1,
+    "name": "Kathryn Singleton",
+    "email": "kathrynsingleton@electonic.com",
+    "phone": "(967) 512-3699"
   },
   {
-    "name": "Hickman Mcfadden",
-    "email": "hickmanmcfadden@electonic.com",
-    "phone": "(938) 559-2466"
+    "rate1": 2,
+    "rate2": 3,
+    "name": "Mason Mcgowan",
+    "email": "masonmcgowan@electonic.com",
+    "phone": "(962) 592-3388"
   },
   {
-    "name": "Cohen Merritt",
-    "email": "cohenmerritt@electonic.com",
-    "phone": "(809) 416-2822"
+    "rate1": 5,
+    "rate2": 6,
+    "name": "Beverly Shannon",
+    "email": "beverlyshannon@electonic.com",
+    "phone": "(849) 443-2110"
   },
   {
-    "name": "Robertson Figueroa",
-    "email": "robertsonfigueroa@electonic.com",
-    "phone": "(954) 586-3252"
+    "rate1": 10,
+    "rate2": 4,
+    "name": "Iris Santos",
+    "email": "irissantos@electonic.com",
+    "phone": "(843) 591-2107"
   },
   {
-    "name": "Ladonna Sullivan",
-    "email": "ladonnasullivan@electonic.com",
-    "phone": "(940) 473-2987"
+    "rate1": 8,
+    "rate2": 3,
+    "name": "Melissa Mcmillan",
+    "email": "melissamcmillan@electonic.com",
+    "phone": "(935) 519-2170"
   },
   {
-    "name": "Yesenia Wise",
-    "email": "yeseniawise@electonic.com",
-    "phone": "(926) 555-3889"
+    "rate1": 8,
+    "rate2": 4,
+    "name": "Parker William",
+    "email": "parkerwilliam@electonic.com",
+    "phone": "(809) 433-2044"
   },
   {
-    "name": "Simon Woodward",
-    "email": "simonwoodward@electonic.com",
-    "phone": "(875) 534-2702"
+    "rate1": 10,
+    "rate2": 0,
+    "name": "Tia Banks",
+    "email": "tiabanks@electonic.com",
+    "phone": "(925) 546-3151"
   },
   {
-    "name": "Mcclure Rivas",
-    "email": "mcclurerivas@electonic.com",
-    "phone": "(867) 505-2088"
+    "rate1": 4,
+    "rate2": 7,
+    "name": "Wilkins Livingston",
+    "email": "wilkinslivingston@electonic.com",
+    "phone": "(822) 434-3155"
   },
   {
-    "name": "Tanner Castaneda",
-    "email": "tannercastaneda@electonic.com",
-    "phone": "(878) 526-2269"
+    "rate1": 5,
+    "rate2": 2,
+    "name": "Luella Emerson",
+    "email": "luellaemerson@electonic.com",
+    "phone": "(833) 596-2524"
   },
   {
-    "name": "Bettie Hays",
-    "email": "bettiehays@electonic.com",
-    "phone": "(856) 586-3067"
+    "rate1": 9,
+    "rate2": 6,
+    "name": "Kaitlin Carr",
+    "email": "kaitlincarr@electonic.com",
+    "phone": "(916) 571-3738"
   },
   {
-    "name": "Jeannine Galloway",
-    "email": "jeanninegalloway@electonic.com",
-    "phone": "(985) 489-3515"
+    "rate1": 6,
+    "rate2": 6,
+    "name": "Mollie Hayden",
+    "email": "molliehayden@electonic.com",
+    "phone": "(886) 592-2421"
   },
   {
-    "name": "Leblanc Carey",
-    "email": "leblanccarey@electonic.com",
-    "phone": "(883) 540-3626"
-  },
-  {
-    "name": "Burt Roth",
-    "email": "burtroth@electonic.com",
-    "phone": "(903) 521-2368"
-  },
-  {
-    "name": "Myra Morin",
-    "email": "myramorin@electonic.com",
-    "phone": "(827) 561-3811"
-  },
-  {
-    "name": "Alisa Mann",
-    "email": "alisamann@electonic.com",
-    "phone": "(948) 575-3470"
-  },
-  {
-    "name": "Kathrine Rowland",
-    "email": "kathrinerowland@electonic.com",
-    "phone": "(987) 588-3475"
-  },
-  {
-    "name": "Joyce Battle",
-    "email": "joycebattle@electonic.com",
-    "phone": "(805) 479-3505"
-  },
-  {
-    "name": "Gibson Marquez",
-    "email": "gibsonmarquez@electonic.com",
-    "phone": "(846) 464-3422"
-  },
-  {
-    "name": "Hawkins Booth",
-    "email": "hawkinsbooth@electonic.com",
-    "phone": "(979) 439-3162"
-  },
-  {
-    "name": "Spencer Perry",
-    "email": "spencerperry@electonic.com",
-    "phone": "(871) 491-2130"
-  },
-  {
-    "name": "Paula Guthrie",
-    "email": "paulaguthrie@electonic.com",
-    "phone": "(843) 477-3032"
-  },
-  {
-    "name": "Rae Singleton",
-    "email": "raesingleton@electonic.com",
-    "phone": "(976) 592-3081"
-  },
-  {
-    "name": "Madelyn Drake",
-    "email": "madelyndrake@electonic.com",
-    "phone": "(851) 441-2392"
-  },
-  {
-    "name": "Imogene Miles",
-    "email": "imogenemiles@electonic.com",
-    "phone": "(843) 570-3276"
-  },
-  {
-    "name": "Hayes Fields",
-    "email": "hayesfields@electonic.com",
-    "phone": "(907) 508-2164"
-  },
-  {
-    "name": "Le Goodman",
-    "email": "legoodman@electonic.com",
-    "phone": "(935) 528-2763"
-  },
-  {
-    "name": "Bonnie Frye",
-    "email": "bonniefrye@electonic.com",
-    "phone": "(805) 583-2833"
-  },
-  {
-    "name": "Diaz Sosa",
-    "email": "diazsosa@electonic.com",
-    "phone": "(810) 565-2155"
-  },
-  {
-    "name": "Alta Schneider",
-    "email": "altaschneider@electonic.com",
-    "phone": "(938) 571-2936"
-  },
-  {
-    "name": "Christine Moody",
-    "email": "christinemoody@electonic.com",
-    "phone": "(874) 530-3988"
-  },
-  {
-    "name": "Mcintyre Sampson",
-    "email": "mcintyresampson@electonic.com",
-    "phone": "(871) 502-2369"
-  },
-  {
-    "name": "Roberts Gates",
-    "email": "robertsgates@electonic.com",
-    "phone": "(873) 479-2256"
-  },
-  {
-    "name": "Mara Hood",
-    "email": "marahood@electonic.com",
-    "phone": "(838) 492-3055"
+    "rate1": 1,
+    "rate2": 3,
+    "name": "Josie Wiggins",
+    "email": "josiewiggins@electonic.com",
+    "phone": "(887) 593-3200"
   }
 ]

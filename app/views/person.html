@@ -7,3 +7,39 @@
     <p>Email : {{person.data.email}}</p>
     <p>Phone: {{person.data.phone}}</p>
 </div>
+<div class="container">
+    
+    <div class="panel  panel-default">
+        <div class="panel-heading">
+            <h4>Notes</h4>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>your rate</th>
+                        <th>rate 1</th>
+                        <th>rate 2</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number" ng-model="yourRate" ng-change="validInputRate()"></td>
+                        <td><label>{{person.data.rate1}}</label></td>
+                        <td><label>{{person.data.rate2}}</label></td>
+                        <td><input type="number" ng-model="total" ng-change="validInputTotal()"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="container">
+                <label for="">deserved salary</label><input type="number">
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    
+</div>
