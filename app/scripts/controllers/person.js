@@ -2,10 +2,17 @@
 
 angular.module('wallethubApp').controller('PersonCtrl', function ($scope, $stateParams, shareData, $location) {
     
+    if(!shareData.allData){
+        $location.path('/list');
+        return;
+    }
+    
+    
     $scope.person = shareData.selectedPersona;
     $scope.yourRate = 0;
     $scope.total = $scope.person.data.rate1 + $scope.person.data.rate2 + $scope.yourRate;
-    
+    $scope.phonenumber = null;
+    $scope.salary = null;
     $scope.backClick = function(){$location.path('/list');}
     
     $scope.validInputRate = function(){
