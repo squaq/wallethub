@@ -8817,4 +8817,8 @@ body {
   opacity: 1;
 }
 
-/*# sourceMappingURL=main.css.map */
+/* line 107, ../../app/styles/main.scss */
+.codeInput {
+  width: 100%;
+  text-align: center;
+}

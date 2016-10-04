@@ -17,7 +17,6 @@ angular.module('wallethubApp')
         for(var i in data){
             $scope.shareData.allData.push({'name':data[i].name, 'pos':parseInt(i)+1, 'data':data[i]});
        }
-//        console.log($scope.shareData.allData);
     }
     
     function downloadData(){
@@ -27,18 +26,18 @@ angular.module('wallethubApp')
         }, 
         function(error){
             $scope.showError = true;
-//            console.log('error',error);
         });
     }
     
+    
+    //open tab selections
     $scope.gotoItem = function(id){
         shareData.selectedPersona = $scope.shareData.allData[id];
         $location.path("/list/"+id);
     }
     
     
-    
-    
+    //ordering the list
     $scope.clickAlign = function(by){
         
         $scope.by = by;   
@@ -53,6 +52,7 @@ angular.module('wallethubApp')
         }
         
     }
+    //first order
     $scope.clickAlign('name');
     
     

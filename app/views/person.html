@@ -1,13 +1,15 @@
 
- <div class="jumbotron">
-    <button type="button" class="btn btn-default pull-left info" ng-click="backClick()"><i class="glyphicon glyphicon-chevron-left"></i></button>
-  <h2>{{person.name}}</h2>
-   
-
-    <p>Email : {{person.data.email}}</p>
-    <p>Phone: {{person.data.phone}}</p>
-</div>
 <div class="container">
+    <button type="button" class="btn btn-default pull-left info" ng-click="backClick()"><i class="glyphicon glyphicon-chevron-left"></i></button>
+    <div class="jumbotron">
+
+      <h2>{{person.name}}</h2>
+
+
+        <p>Email : {{person.data.email}}</p>
+        <p>Phone: {{person.data.phone}}</p>
+    </div>
+   
     
     <div class="panel  panel-default">
         <div class="panel-heading">
@@ -25,21 +27,45 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="number" ng-model="yourRate" ng-change="validInputRate()"></td>
+                        <td><input type="number" ng-model="yourRate" ng-change="validInputRate()" class="codeInput"></td>
                         <td><label>{{person.data.rate1}}</label></td>
                         <td><label>{{person.data.rate2}}</label></td>
-                        <td><input type="number" ng-model="total" ng-change="validInputTotal()"></td>
+                        <td><input type="number" ng-model="total" ng-change="validInputTotal()" class="codeInput"></td>
                     </tr>
                 </tbody>
             </table>
-            
-            <div class="container">
-                <label for="">deserved salary</label><input type="text" ng-model="salary" format-currency>
-            </div>
-            <div class="container">
-                <label for="">Your phone: </label><input type="text" ng-model="phonenumber" format-phone>
-            </div>
-            
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th><label>deserved salary</label></th>
+                        <th><input type="text" ng-model="salary" format-currency placeholder="$$$"  class="codeInput"></th>
+                    </tr>
+                    <tr>
+                        <th><label>Your phone: </label></th>
+                        <th><input type="text" ng-model="phonenumber" format-phone placeholder="(xxx)xxx-xxxx"  class="codeInput"></th>
+                    </tr>
+                </tbody>
+                
+            </table>
+            <table class="table table-bordered">
+                <thead>
+                        <tr><label>supposed barcode</label></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            <input type="text" maxlength="maxLen" placeholder="xxxxx" ng-change="changingInput('code1')" ng-model="code1" id="code1" class="codeInput">
+                        </th>
+                        <th>
+                           <input type="text" maxlength="maxLen"  placeholder="xxxxx" ng-change="changingInput('code2')" ng-model="code2" id="code2" class="codeInput">
+                        </th>
+                        <th>
+                          <input type="text" maxlength="maxLen" placeholder="xxxxx" ng-change="changingInput('code3')" ng-model="code3" id="code3" class="codeInput">
+                           
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         
         
